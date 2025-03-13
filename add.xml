@@ -1,0 +1,8 @@
+<manifest>
+    <!-- 远程 GitHub 地址 -->
+    <remote name="lineage" fetch="https://github.com/BrianCliton/" revision="main"/>
+
+    <!-- 我们自己的组件 -->
+    <project path="packages/apps/test001" name="lineage-custom-app-test001" remote="lineage" revision="main" />
+    <project path="device/quick/tv" name="lineage-custom-device" remote="lineage" revision="main" />
+</manifest>
