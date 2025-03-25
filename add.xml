@@ -4,5 +4,6 @@
 
     <!-- 我们自己的组件 -->
     <project path="packages/apps/test001" name="lineage-custom-app-test001" remote="lineage" revision="main" />
+    <project path="packages/apps/flauncher" name="lineage-custom-app-flauncher" remote="lineage" revision="main" />
     <project path="device/quick/tv" name="lineage-custom-device" remote="lineage" revision="main" />
 </manifest>
